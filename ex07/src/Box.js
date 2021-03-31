@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 
-class Box extends Component {
+const Box = () => {
     render() {
-        return (
-            <h2>This is a Box Component!</h2>
-        )
-    }
+        return <h2>This is a Box Component!</h2>
+ }
 }
 
 export default Box;
